@@ -19,19 +19,12 @@ function AuthProvider({ children }) {
   }, []);
 
   // LOGIN
-  const login = (userData) => {
+  const login = ({ user, token }) => {
 
-  localStorage.setItem(
-    "user",
-    JSON.stringify(userData)
-  );
+  localStorage.setItem("user", JSON.stringify(user));
+  localStorage.setItem("token", token);
 
-  localStorage.setItem(
-    "token",
-    userData.token
-  );
-
-  setUser(userData);
+  setUser(user);
 
 };
 

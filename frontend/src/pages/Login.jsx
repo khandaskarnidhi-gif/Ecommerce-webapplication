@@ -36,12 +36,12 @@ function Login() {
 
     try {
 
-      const { data } = await API.post(
-        "/auth/login",
-        formData
-      );
+      const { data } = await API.post("/auth/login", formData);
 
-      login(data);
+login({
+  user: data.user,
+  token: data.token
+});
 
       toast.success("Login successful");
 
