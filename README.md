@@ -6,7 +6,7 @@ A full-stack E-Commerce web application designed to simulate a real-world online
 
 ## 🚀 Live Demo
 
-- 🌐 Frontend: https://your-netlify-app.netlify.app  
+- 🌐 Frontend: https://gfcd.netlify.app
 - ⚙️ Backend API: https://ecommerce-webapplication.onrender.com
 
 ---
@@ -36,10 +36,10 @@ This project is a basic online store system that allows users to browse products
 
 ## 🧰 Tech Stack
 
-- **Frontend:** HTML / CSS / JavaScript (or React)
-- **Backend:** Node.js, Express.js
+- **Frontend:** HTML / CSS / JavaScript / React
+- **Backend:** Node.js
 - **Authentication:** JWT (JSON Web Token)
-- **Database:** MongoDB / MySQL / PostgreSQL
+- **Database:** MongoDB 
 - **Deployment:** Netlify (Frontend), Render (Backend)
 
 ---
