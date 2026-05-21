@@ -6,7 +6,7 @@ A full-stack E-Commerce web application designed to simulate a real-world online
 
 ## 🚀 Live Demo
 
-- 🌐 Frontend: https://gfcd.netlify.app
+- 🌐 Frontend: https://fhvf.netlify.app/
 - ⚙️ Backend API: https://ecommerce-webapplication.onrender.com
 
 ---
